@@ -1,0 +1,72 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <h1 id="title">freeCodeCamp Survey Form</h1>
+    <p id="desc">Thank you for taking the time to help us improve the platform</p>
+    
+    <form action="#" id="survey-form">
+        <label for="name" id="name-label" class="all-label">Name</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your name" class="box"><br>
+
+        <label for="email" class="all-label" id="email-label">Email</label><br>
+        <input type="email" id="email" name="Email" placeholder="Enter your Email" class="box"><br>
+        
+        <label for="age" id="number-label" class="all-label">Age (optional)</label><br>
+        <input type="number" id="age" name="age" placeholder="Age" class="box"><br>
+
+        <label for="cur_role" class="all-label" id="cur_role-label">Which option best describes your current role?</label><br>
+        <select name="cur_role" id="dropdown cur_role" class="box">
+            <option value="" disabled selected>Select current role</option>
+            <option value="Student">Student</option>
+            <option value="Full time Job">Full time Job</option>
+            <option value="Full Time Learner">Full Time Learner</option>
+            <option value="Prefer not to say">Prefer not to say</option>
+            <option value="Other">Other</option>
+        </select><br>
+
+        <label id="recom-label" class="all-label" for="rec_or_not" >Would you recommend FreeCodeCamp to a friend?</label><br>
+        <input type="radio" id="Definitely" name="rec_or_not" value="Definitely" class="select1_or_more">
+        <label for="Definitely">Definitely</label><br>
+        <input type="radio" id="Maybe" name="rec_or_not" value="Maybe" class="select1_or_more">
+        <label for="Maybe">Maybe</label><br>
+        <input type="radio" id="Not_sure" name="rec_or_not" value="Not sure" class="select1_or_more">
+        <label for="Not_sure">Not sure</label><br>
+
+        <label for="fav-feat" id="fav-feat-label" class="all-label">What is your favorite feature of freeCodeCamp?</label><br>
+        <select name="fav-feat" id="dropdown fav-feat" class="box">
+            <option value="" disabled selected>Select an option</option>
+            <option value="Challenges">Challenges</option>
+            <option value="Projects">Projects</option>
+            <option value="Community">Community</option>
+            <option value="Open Source">Open Source</option>
+        </select><br>
+
+        <label for="feedback" id="feedback-label" class="all-label">What would you like to see improved?
+        (Check all that apply)</label><br>
+        <input type="checkbox" id="Front-end" name="feedback" value="Front-end Projects" class="select1_or_more">
+        <label for="Front-end">Front-end Projects</label><br>
+        <input type="checkbox" id="Back-end" name="feedback" value="Back-end Projects" class="select1_or_more">
+        <label for="Back-end">Back-end Projects</label><br>
+        <input type="checkbox" id="Data visualization" name="feedback" value="Data visualization" class="select1_or_more">
+        <label for="Data visualization">Data visualization</label><br>
+        <input type="checkbox" id="Challenges" name="feedback" class="select1_or_more" value="Challenges">
+        <label for="Challenges">Challenges</label><br>
+
+        <label for="comments" id="comment-label" class="all-label">Any comments or suggestions?</label><br>
+        <textarea name="comment" id="comments" placeholder="Enter you comment here..."></textarea><br>
+        <button type="submit" form="form1" value="Submit" id="submit">Submit</button>
+    </form>
+
+</body>
+
+</html>

@@ -1,0 +1,87 @@
+body{
+    background-image: url(Wallp5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.4;
+    color: rgb(235, 235, 235);
+}
+#title{
+    color: white;
+    width: 100vh;
+    margin: 3rem auto 10px auto;
+    text-align: center;
+    display: block;
+}
+#desc{
+    color: white;
+    width: 100vh;
+    margin: 1% auto 20px auto;
+    text-align: center;
+    display: block;
+}
+#survey-form{
+    background-color: rgba(3, 7, 66, 0.808);
+    border-radius: 3px;
+    padding: 2.5rem 0.625rem;
+    box-sizing: border-box;
+    display: block;
+    margin: 3rem 15% 0 15%;
+}
+
+.all-label{
+    margin: 6%;
+}
+
+.box{
+    margin: 1% 6% 5%;
+    padding: 7px;
+    border-radius: 5px;
+    width: 85%;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.753);
+}
+
+.select1_or_more{
+    margin-left: 7%;
+}
+
+#Definitely{
+    margin-top: 1%;
+}
+#Not_sure{
+    margin-bottom: 5%;
+}
+#Front-end{
+    margin-top: 2%;
+
+}
+#Challenges{
+    margin-bottom: 5%;
+
+}
+#feedback-label{
+    text-align:inherit;
+}
+#comments{
+    margin: 1% 6% 5%;
+    padding: 7px;
+    border-radius: 5px;
+    width: 85%;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    height: 8rem;
+}
+#submit{
+    margin: 1% 6% 5%;
+    padding: 10px;
+    border-radius: 5px;
+    width: 85%;
+    color: rgb(255, 255, 255);
+    background-color: rgba(45, 214, 45, 0.918);
+    border: none;
+    /* height: 12.5%; */
+    font-size: 1.05rem;
+}
